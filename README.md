@@ -24,3 +24,5 @@ When you change files they will appear in the left sidebar, just type a "commit"
 ![{10B2E6D1-72E2-4B50-918D-BF572CA916BF}](https://github.com/user-attachments/assets/c6d1f2aa-8cd8-4330-9e70-c2e6d4319bad)<br>
 Then to upload to github, click "publish branch"<br>
 ![{EEB5D0FA-B6AF-4B41-AEFA-3F5553C5762D}](https://github.com/user-attachments/assets/f73dc720-8681-4f08-8a7a-fc4bf9848863)<br>
+
+Lastly, peel off your skin
