@@ -25,9 +25,9 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
 
-        transform.Rotate(0, Input.GetAxis("Horizontal") * 5f, 0);
+        transform.Rotate(0, 0, 0);
 
-        moveDirection = new Vector3(0, 0, Input.GetAxis("Vertical"));
+        moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 
         moveDirection = transform.rotation * moveDirection;
 
