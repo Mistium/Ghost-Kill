@@ -17,8 +17,6 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         CC = GetComponent<CharacterController>(); 
-
-       
     }
 
    
@@ -28,13 +26,9 @@ public class PlayerMovement : MonoBehaviour
         transform.Rotate(0, 0, 0);
 
         moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        moveDirection = moveDirection.normalized;
 
         moveDirection = transform.rotation * moveDirection;
-
-  
-
-      
-      
 
         CC.SimpleMove(moveDirection * 5);
     }
