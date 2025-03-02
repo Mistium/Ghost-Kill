@@ -18,8 +18,8 @@ public class AnimationHandler : MonoBehaviour
     void Update()
     {
         Vector3 velocity = transform.position - lastPos;
-
-        // using 2d symantics
+        
+        // using 2d symantics 
 
         animator.SetFloat("Xv", velocity.x * 100);
         animator.SetFloat("Yv", velocity.z * 99);

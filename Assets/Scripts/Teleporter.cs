@@ -17,6 +17,7 @@ public class Teleporter : MonoBehaviour
     }
     IEnumerator OnTriggerEnter()
     {
+        StartCoroutine(BGMManager.Instance.FadeVolume(0.33f,3f));
         //CC is enabled/disabled because transform cannot be set while its active, thanks unity!
         CC.enabled = false;
         Player.transform.position = Target.position;
