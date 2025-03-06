@@ -1,23 +1,28 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class BattleSystem : MonoBehaviour
 {
-    public Text playerHPtxt;
-    public Text enemyHPtxt;
+    public TMP_Text playerHPtxt;
+    public TMP_Text enemyHPtxt;
     public class Player
     {
+        string name;
+
         float maxHP;
         float HP;
 
         bool enemy;
         bool dead;
 
-        public Player(int HPp, bool enemyp)
+        public Player(int HPp, bool enemyp, string namep)
         {
+            name = namep;
             maxHP = HPp;
             HP = HPp;
             enemy = enemyp;
@@ -54,14 +59,22 @@ public class BattleSystem : MonoBehaviour
 
     public Player[] characters = new Player[10];
 
-    int charNum = 2;
-    int turn = 0;   
+    int playerNum;
+    int enemyNum;
+    int turn = 0;
+    int[] turnIDs = new int[5];
 
     // Start is called before the first frame update
     void Start()
     {
-        characters[0] = new Player(10, false);
-        characters[1] = new Player(5, true);
+        characters[0] = new Player(10, false, "Player");
+        turnIDs[0] = 0;
+        characters[1] = new Player(5, true, "Enemy1");
+        turnIDs[1] = 1;
+
+
+        playerNum = 1;
+        enemyNum = 1;
     }
 
     // Update is called once per frame
@@ -69,15 +82,16 @@ public class BattleSystem : MonoBehaviour
     {
         if (characters[turn].isEnemy())
         {
-            
+            Attack(0);
         }
     }
 
     public IEnumerator Attack(int target) 
     {
-        changeHP(1);
-
+        characters[target].changeHP(1);
+        yield return new WaitForSeconds(0.5f);
         turn++;
-        if (turn > charNum) { turn = 0; }
+        if (turn > playerNum + enemyNum) { turn = 0; }
+        
     }
 }

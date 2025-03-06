@@ -29,8 +29,5 @@ public class Teleporter : MonoBehaviour
         Player.GetComponent<PlayerMovement>().toggleMovement(false);
         yield return new WaitForSeconds(0.5f);
         Player.GetComponent<PlayerMovement>().toggleMovement(true);
-
-
-
     }
 }
