@@ -10,6 +10,8 @@ public class BattleSystem : MonoBehaviour
 {
     public TMP_Text playerHPtxt;
     public TMP_Text enemyHPtxt;
+
+    public static BattleSystem Instance;
     public class Player
     {
         string name;
@@ -63,7 +65,10 @@ public class BattleSystem : MonoBehaviour
     int enemyNum;
     int turn = 0;
     int[] turnIDs = new int[5];
-
+    void Awake()
+    {
+        Instance = this;
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -71,7 +76,6 @@ public class BattleSystem : MonoBehaviour
         turnIDs[0] = 0;
         characters[1] = new Player(5, true, "Enemy1");
         turnIDs[1] = 1;
-
 
         playerNum = 1;
         enemyNum = 1;
@@ -88,10 +92,22 @@ public class BattleSystem : MonoBehaviour
 
     public IEnumerator Attack(int target) 
     {
+        Debug.Log("Clicky");
         characters[target].changeHP(1);
         yield return new WaitForSeconds(0.5f);
         turn++;
         if (turn > playerNum + enemyNum) { turn = 0; }
-        
+
+        updateTexts();
     }
+
+    public void updateTexts()
+    {   
+        if (characters[turn].isDead()) { playerHPtxt.SetText("Player HP: d"); } 
+        else { playerHPtxt.SetText("Player HP: " + characters[0].getHP()); }
+
+        if (characters[turn].isDead()) { enemyHPtxt.SetText("Enemy HP: d" ); }
+        else { playerHPtxt.SetText("Enemy HP: " + characters[0].getHP()); }
+    }
+
 }
