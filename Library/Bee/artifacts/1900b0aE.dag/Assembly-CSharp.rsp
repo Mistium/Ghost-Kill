@@ -371,8 +371,13 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Player/PlayerAnimationHandler.cs"
 "Assets/Player/PlayerMovement.cs"
+<<<<<<< HEAD
+"Assets/Scripts/AttackButton.cs"
+"Assets/Scripts/BattleSystem.cs"
+=======
 "Assets/Scenes/MainMenu/MenuHandler.cs"
 "Assets/Scenes/MainMenu/NewGame Button.cs"
+>>>>>>> main
 "Assets/Scripts/BGMManager.cs"
 "Assets/Scripts/SceneSwitcher.cs"
 "Assets/Scripts/SceneTeleporter.cs"
