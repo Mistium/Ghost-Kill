@@ -373,6 +373,7 @@
 "Assets/Player/PlayerMovement.cs"
 "Assets/Scenes/MainMenu/MenuHandler.cs"
 "Assets/Scenes/MainMenu/NewGame Button.cs"
+"Assets/Scenes/UI/UI Handler.cs"
 "Assets/Scripts/BGMManager.cs"
 "Assets/Scripts/SceneSwitcher.cs"
 "Assets/Scripts/SceneTeleporter.cs"
