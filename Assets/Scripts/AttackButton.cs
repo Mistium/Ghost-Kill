@@ -6,6 +6,9 @@ public class AttackButton : MonoBehaviour
 {
     public void OnButtonClick()
     {
-        StartCoroutine(BattleSystem.Instance.Attack(-1));
+        if (BattleSystem.Instance.turn == 0)
+        {
+            StartCoroutine(BattleSystem.Instance.Attack(1));
+        }
     }
 }

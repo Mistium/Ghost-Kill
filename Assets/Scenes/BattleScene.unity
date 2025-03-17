@@ -237,6 +237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerHPtxt: {fileID: 766173888}
   enemyHPtxt: {fileID: 671809429}
+  turn: 0
 --- !u!4 &156935549
 Transform:
   m_ObjectHideFlags: 0
@@ -247,6 +248,90 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -46.865368, y: 3.9410682, z: -11.245808}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &179893379
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 179893381}
+  - component: {fileID: 179893380}
+  m_Layer: 0
+  m_Name: 71oF1vP4WrL (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &179893380
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179893379}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: af6134c38464cb543a07110790f3641d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 25, y: 25}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &179893381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 179893379}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 99999, y: -1.84, z: 9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1070,6 +1155,90 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &902752995
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 902752997}
+  - component: {fileID: 902752996}
+  m_Layer: 0
+  m_Name: city-skyline-summer-time-urban-view-background_107791-9101
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &902752996
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902752995}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 3aca56f53e412ba479b07e8eb812bee8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 6.26, y: 2.09}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &902752997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902752995}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -49.79, y: 2.33, z: -4.79}
+  m_LocalScale: {x: 3.7312, y: 2.4863496, z: 3.7312}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1098629783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1417,8 +1586,8 @@ Mesh:
     firstVertex: 0
     vertexCount: 4
     localAABB:
-      m_Center: {x: 3.0117989, y: 0.0001, z: -3.49502}
-      m_Extent: {x: 3.0118008, y: 0, z: 3.49502}
+      m_Center: {x: 2.3184319, y: 0.0001, z: -3.0625153}
+      m_Extent: {x: 11.955937, y: 0, z: 10.065075}
   m_Shapes:
     vertices: []
     shapes: []
@@ -1497,7 +1666,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 192
-    _typelessdata: 000000b617b7d13868aedfc0000000000000803f000000000000803f0000000000000000000080bf000000b668aedfc0000000b617b7d13800008034000000000000803f000000000000803f0000000000000000000080bf000000b60000803454c1c04017b7d13868aedfc0000000000000803f000000000000803f0000000000000000000080bf54c1c04068aedfc054c1c04017b7d13800008034000000000000803f000000000000803f0000000000000000000080bf54c1c04000008034
+    _typelessdata: 39331ac117b7d1389c0a52c1000000000000803f000000000000803f0000000000000000000080bf39331ac19c0a52c139331ac117b7d138f814e040000000000000803f000000000000803f0000000000000000000080bf39331ac1f814e040d163644117b7d1389c0a52c1000000000000803f000000000000803f0000000000000000000080bfd16364419c0a52c1d163644117b7d138f814e040000000000000803f000000000000803f0000000000000000000080bfd1636441f814e040
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -1551,8 +1720,8 @@ Mesh:
       m_BitSize: 0
     m_UVInfo: 0
   m_LocalAABB:
-    m_Center: {x: 3.0117989, y: 0.0001, z: -3.49502}
-    m_Extent: {x: 3.0118008, y: 0, z: 3.49502}
+    m_Center: {x: 2.3184319, y: 0.0001, z: -3.0625153}
+    m_Extent: {x: 11.955937, y: 0, z: 10.065075}
   m_MeshUsageFlags: 0
   m_CookingOptions: 30
   m_BakedConvexCollisionMesh: 
@@ -1732,14 +1901,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Shape:
     rid: 8307738461306355715
-  m_Size: {x: 6.0236015, y: 0, z: -6.99004}
+  m_Size: {x: 23.911875, y: 0, z: -20.13015}
   m_Rotation: {x: 0, y: 0, z: 0, w: 1}
   m_PivotLocation: 1
   m_PivotPosition: {x: 0, y: 0, z: 0}
-  m_UnmodifiedMeshVersion: 2701
+  m_UnmodifiedMeshVersion: 7628
   m_ShapeBox:
-    m_Center: {x: 3.0117989, y: 0.0001, z: -3.49502}
-    m_Extent: {x: 3.49502, y: 0, z: 3.0118008}
+    m_Center: {x: 2.3184319, y: 0.0001, z: -3.0625153}
+    m_Extent: {x: 10.065075, y: 0, z: 11.955937}
   references:
     version: 2
     RefIds:
@@ -1784,15 +1953,15 @@ MonoBehaviour:
   - m_Vertices: 03000000
   m_SharedTextures: []
   m_Positions:
-  - {x: -0.0000019073486, y: 0.0001, z: -6.99004}
-  - {x: -0.0000019073486, y: 0.0001, z: 0.00000023841858}
-  - {x: 6.0235996, y: 0.0001, z: -6.99004}
-  - {x: 6.0235996, y: 0.0001, z: 0.00000023841858}
+  - {x: -9.637506, y: 0.0001, z: -13.12759}
+  - {x: -9.637506, y: 0.0001, z: 7.0025597}
+  - {x: 14.274369, y: 0.0001, z: -13.12759}
+  - {x: 14.274369, y: 0.0001, z: 7.0025597}
   m_Textures0:
-  - {x: -0.0000019073486, y: -6.99004}
-  - {x: -0.0000019073486, y: 0.00000023841858}
-  - {x: 6.0235996, y: -6.99004}
-  - {x: 6.0235996, y: 0.00000023841858}
+  - {x: -9.637506, y: -13.12759}
+  - {x: -9.637506, y: 7.0025597}
+  - {x: 14.274369, y: -13.12759}
+  - {x: 14.274369, y: 7.0025597}
   m_Textures2: []
   m_Textures3: []
   m_Tangents:
@@ -1809,7 +1978,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 1929736503}
-  m_VersionIndex: 2701
+  m_VersionIndex: 7628
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1925,3 +2094,5 @@ SceneRoots:
   - {fileID: 651214375}
   - {fileID: 771828373}
   - {fileID: 156935549}
+  - {fileID: 179893381}
+  - {fileID: 902752997}

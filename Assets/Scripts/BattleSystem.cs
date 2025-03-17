@@ -29,7 +29,7 @@ public class BattleSystem : MonoBehaviour
             HP = HPp;
             enemy = enemyp;
         }
-
+        
         public bool isEnemy()
         {
             return enemy;
@@ -55,6 +55,7 @@ public class BattleSystem : MonoBehaviour
         {
             HP += amount;
             Mathf.Clamp(HP, 0, maxHP);
+            if (HP == 0) { dead = true; }
         }
     }
 
@@ -63,7 +64,9 @@ public class BattleSystem : MonoBehaviour
 
     int playerNum;
     int enemyNum;
-    int turn = 0;
+    int charNum;
+    public int turn = 0;
+    bool turnDone = true;
     int[] turnIDs = new int[5];
     void Awake()
     {
@@ -79,35 +82,44 @@ public class BattleSystem : MonoBehaviour
 
         playerNum = 1;
         enemyNum = 1;
+        charNum = playerNum + enemyNum;
+
+        updateTexts();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (characters[turn].isEnemy())
+        if (characters[turn].isEnemy() && turnDone && !characters[turn].isDead())
         {
-            Attack(0);
+            StartCoroutine(Attack(0));
         }
     }
 
     public IEnumerator Attack(int target) 
     {
-        Debug.Log("Clicky");
-        characters[target].changeHP(1);
-        yield return new WaitForSeconds(0.5f);
-        turn++;
-        if (turn > playerNum + enemyNum) { turn = 0; }
+        if (turnDone)
+        {
+            turnDone = false;
+            Debug.Log("Clicky");
+            characters[target].changeHP(-1);
+            yield return new WaitForSeconds(0.5f);
+            turn++;
+            if (turn > charNum - 1) { turn = 0; }
 
-        updateTexts();
+            updateTexts();
+            turnDone = true;
+        }
+        
     }
 
     public void updateTexts()
     {   
-        if (characters[turn].isDead()) { playerHPtxt.SetText("Player HP: d"); } 
+        if (characters[0].isDead()) { playerHPtxt.SetText("Player Dead"); } 
         else { playerHPtxt.SetText("Player HP: " + characters[0].getHP()); }
 
-        if (characters[turn].isDead()) { enemyHPtxt.SetText("Enemy HP: d" ); }
-        else { playerHPtxt.SetText("Enemy HP: " + characters[0].getHP()); }
+        if (characters[1].isDead()) { enemyHPtxt.SetText("Enemy Dead" ); }
+        else { enemyHPtxt.SetText("Enemy HP: " + characters[1].getHP()); }
     }
 
 }
