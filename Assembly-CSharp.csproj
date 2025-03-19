@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\SceneTeleporter.cs" />
     <Compile Include="Assets\Scripts\BGMManager.cs" />
     <Compile Include="Assets\Player\PlayerAnimationHandler.cs" />
+    <Compile Include="Assets\Scenes\UI\UI Handler.cs" />
     <Compile Include="Assets\Player\PlayerMovement.cs" />
   </ItemGroup>
   <ItemGroup>
