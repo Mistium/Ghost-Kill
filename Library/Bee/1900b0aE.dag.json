@@ -32480,7 +32480,11 @@
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
       "PayloadOffset": 2450036,
+<<<<<<< HEAD
+      "PayloadLength": 33972,
+=======
       "PayloadLength": 34005,
+>>>>>>> main
       "PayloadDebugContentSnippet": "-target:library\n-out:\"Library/",
       "Inputs": [],
       "Outputs": [
@@ -32492,7 +32496,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
+      "PayloadOffset": 2484095,
+=======
       "PayloadOffset": 2484128,
+>>>>>>> main
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -32757,8 +32765,12 @@
         "Assets/Player/PlayerMovement.cs",
         "Assets/Scenes/MainMenu/MenuHandler.cs",
         "Assets/Scenes/MainMenu/NewGame Button.cs",
+<<<<<<< HEAD
+        "Assets/Scenes/UI/UI Handler.cs",
+=======
         "Assets/Scripts/AttackButton.cs",
         "Assets/Scripts/BattleSystem.cs",
+>>>>>>> main
         "Assets/Scripts/BGMManager.cs",
         "Assets/Scripts/SceneSwitcher.cs",
         "Assets/Scripts/SceneTeleporter.cs",
@@ -33055,7 +33067,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
+      "PayloadOffset": 2484191,
+=======
       "PayloadOffset": 2484224,
+>>>>>>> main
       "PayloadLength": 10474,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
