@@ -63,7 +63,9 @@
     <Compile Include="Assets\Scenes\MainMenu\NewGame Button.cs" />
     <Compile Include="Assets\Scripts\StartSceneGeneric.cs" />
     <Compile Include="Assets\Scripts\Teleporter.cs" />
+    <Compile Include="Assets\Scripts\BattleSystem.cs" />
     <Compile Include="Assets\Scripts\SceneSwitcher.cs" />
+    <Compile Include="Assets\Scripts\AttackButton.cs" />
     <Compile Include="Assets\Scenes\MainMenu\MenuHandler.cs" />
     <Compile Include="Assets\Scripts\SceneTeleporter.cs" />
     <Compile Include="Assets\Scripts\BGMManager.cs" />
