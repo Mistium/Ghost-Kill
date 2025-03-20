@@ -647,6 +647,7 @@ m_ResolvedPackages:
     - 6.0.2
     - 6.0.3
     - 6.0.4
+    - 6.0.5
     compatible:
     - 5.2.3
     recommended: 5.2.3
