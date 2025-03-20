@@ -16,8 +16,10 @@ public class PlayerMovement : MonoBehaviour
     public Transform cameraTransform;
     public float cameraDistance = 5f;
     public float cameraHeight = 2f;
-    public float cameraXOffset = 1.5f; // Added X offset for the camera
+    public float cameraXOffset = 1.5f;
     public float cameraCollisionOffset = 0.2f;
+    public float minCameraHeight = 0.5f; // Minimum height for the camera
+    public float heightAdjustmentRate = 0.5f; // How quickly height adjusts based on distance
     public LayerMask collisionLayers;
 
     void Start()
@@ -59,24 +61,45 @@ public class PlayerMovement : MonoBehaviour
 
     void UpdateCameraPosition()
     {
-        // Calculate desired camera position with X offset
+        // Calculate ideal camera position with X offset
         Vector3 cameraOffset = -transform.forward * cameraDistance + transform.right * cameraXOffset;
-        Vector3 desiredCameraPos = transform.position + cameraOffset;
-        desiredCameraPos.y += cameraHeight;
+        Vector3 idealPosition = transform.position + cameraOffset;
+        idealPosition.y += cameraHeight;
 
-        // Check for collisions
+        // Perform collision check
         RaycastHit hit;
-        if (Physics.Linecast(transform.position + Vector3.up * cameraHeight, desiredCameraPos, out hit, collisionLayers))
+        float actualDistance = cameraDistance;
+        Vector3 startPoint = transform.position + Vector3.up * (cameraHeight * 0.5f);
+
+        if (Physics.Linecast(startPoint, idealPosition, out hit, collisionLayers))
         {
-            // If there's a collision, move the camera to the hit point plus a small offset
-            desiredCameraPos = hit.point + hit.normal * cameraCollisionOffset;
+            actualDistance = Vector3.Distance(startPoint, hit.point) - cameraCollisionOffset;
+
+            // Recalculate position with new distance
+            cameraOffset = -transform.forward * actualDistance + transform.right * cameraXOffset;
+            idealPosition = startPoint + cameraOffset;
         }
 
-        // Apply the new position to the camera
-        cameraTransform.position = desiredCameraPos;
+        // Calculate dynamic height based on distance - lower height when closer
+        float distanceRatio = actualDistance / cameraDistance; // 1 at max distance, lower when closer
+        float dynamicHeight = Mathf.Lerp(minCameraHeight, cameraHeight, distanceRatio);
 
-        // Always look at the player
-        cameraTransform.LookAt(transform.position + Vector3.up);
+        // Apply the dynamic height
+        Vector3 finalPosition = idealPosition;
+        finalPosition.y = transform.position.y + dynamicHeight;
+
+        // Apply collision offset if we hit something
+        if (Physics.Linecast(startPoint, finalPosition, out hit, collisionLayers))
+        {
+            finalPosition = hit.point + hit.normal * cameraCollisionOffset;
+        }
+
+        // Set camera position
+        cameraTransform.position = finalPosition;
+
+        // Look at player's upper body rather than feet
+        float lookHeight = Mathf.Lerp(0.8f, 1.5f, distanceRatio); // Look lower when camera is closer
+        cameraTransform.LookAt(transform.position + Vector3.up * lookHeight);
     }
 
     public void toggleMovement(bool input)
