@@ -1,25 +1,25 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/89728/Documents/GitHub/Ghost-Kill/Packages/manifest.json
+    m_FilePath: C:/Users/89689/Documents/GitHub/Ghost-Kill/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638762499929787285
+      ticks: 638784187825274487
     m_Hash: 6293987
   m_LockFileStatus:
-    m_FilePath: C:/Users/89728/Documents/GitHub/Ghost-Kill/Packages/packages-lock.json
+    m_FilePath: C:/Users/89689/Documents/GitHub/Ghost-Kill/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638762499929787285
+      ticks: 638784187825274487
     m_Hash: 738824300
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: C:/Users/89728/Documents/GitHub/Ghost-Kill/Packages
+m_ProjectPath: C:/Users/89689/Documents/GitHub/Ghost-Kill/Packages
 m_EditorVersion: 2022.3.47f1 (88c277b85d21)
 m_ResolvedPackages:
 - packageId: com.unity.cinemachine@2.10.3
@@ -27,7 +27,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.10.3
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.cinemachine@2.10.3
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.cinemachine@2.10.3
   assetPath: Packages/com.unity.cinemachine
   name: com.unity.cinemachine
   displayName: Cinemachine
@@ -212,7 +212,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.5.1
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.collab-proxy@2.5.1
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.collab-proxy@2.5.1
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -304,13 +304,9 @@ m_ResolvedPackages:
     - 2.4.4
     - 2.5.1
     - 2.5.2
-    - 2.6.0
-    - 2.7.1
     compatible:
     - 2.5.1
     - 2.5.2
-    - 2.6.0
-    - 2.7.1
     recommended: 2.5.2
     deprecated: []
   dependencies: []
@@ -362,7 +358,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.feature.cinematic@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.feature.cinematic@1.0.0
   assetPath: Packages/com.unity.feature.cinematic
   name: com.unity.feature.cinematic
   displayName: Cinematic Studio
@@ -411,31 +407,31 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.sequences
     version: 2.0.1
+  - name: com.unity.recorder
+    version: 4.0.3
+  - name: com.unity.settings-manager
+    version: 2.0.1
   - name: com.unity.ugui
     version: 1.0.0
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
-  - name: com.unity.recorder
-    version: 4.0.3
-  - name: com.unity.settings-manager
-    version: 2.0.1
   - name: com.unity.formats.fbx
     version: 4.2.1
   - name: com.autodesk.fbx
     version: 4.2.1
   - name: com.unity.formats.alembic
     version: 2.3.2
-  - name: com.unity.modules.cloth
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
   - name: com.unity.modules.unityanalytics
     version: 1.0.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.cloth
+    version: 1.0.0
+  - name: com.unity.modules.physics
     version: 1.0.0
   - name: com.unity.cinemachine
     version: 2.10.3
@@ -476,7 +472,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.feature.development@1.0.1
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.feature.development@1.0.1
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -570,7 +566,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 5.2.3
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.probuilder@5.2.3
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.probuilder@5.2.3
   assetPath: Packages/com.unity.probuilder
   name: com.unity.probuilder
   displayName: ProBuilder
@@ -579,7 +575,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: 'Build, edit, and texture custom geometry in Unity. Use ProBuilder
     for in-scene level design, prototyping, collision meshes, all with on-the-fly
     play-testing.
@@ -597,75 +593,25 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 3.0.0
-    - 3.0.1
-    - 3.0.2
-    - 3.0.3
-    - 3.0.6
-    - 3.0.8
-    - 3.0.9
-    - 3.10.1
-    - 4.0.2
-    - 4.0.3
-    - 4.0.4
-    - 4.0.5
-    - 4.1.0
-    - 4.1.2
-    - 4.2.1
-    - 4.2.2-preview.1
-    - 4.2.2-preview.2
-    - 4.2.3
-    - 4.2.4-preview.0
-    - 4.3.0-preview.0
-    - 4.3.0-preview.1
-    - 4.3.0-preview.2
-    - 4.3.0-preview.4
-    - 4.3.0-preview.6
-    - 4.3.0-preview.7
-    - 4.3.0-preview.8
-    - 4.3.0-preview.9
-    - 4.3.1
-    - 4.4.0-preview.1
-    - 4.4.0
-    - 4.5.0
-    - 4.5.2
-    - 5.0.0-pre.7
-    - 5.0.0-pre.10
-    - 5.0.1
-    - 5.0.3
-    - 5.0.4
-    - 5.0.6
-    - 5.0.7
-    - 5.1.0
-    - 5.1.1
-    - 5.2.0
-    - 5.2.2
     - 5.2.3
-    - 6.0.1-pre.1
-    - 6.0.1-pre.2
-    - 6.0.1
-    - 6.0.2
-    - 6.0.3
-    - 6.0.4
-    - 6.0.5
     compatible:
     - 5.2.3
     recommended: 5.2.3
     deprecated: []
   dependencies:
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
   - name: com.unity.settings-manager
     version: 1.0.3
-  resolvedDependencies:
-  - name: com.unity.modules.imgui
-    version: 1.0.0
   - name: com.unity.modules.physics
     version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  resolvedDependencies:
   - name: com.unity.settings-manager
     version: 2.0.1
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   keywords:
   - 3d
   - model
@@ -697,7 +643,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638592476130000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.probuilder@5.2/manual/index.html
   hasRepository: 1
   repository:
@@ -719,7 +665,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.7
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.textmeshpro@3.0.7
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.textmeshpro@3.0.7
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -846,8 +792,6 @@ m_ResolvedPackages:
     - 3.2.0-pre.8
     - 3.2.0-pre.9
     - 3.2.0-pre.10
-    - 3.2.0-pre.11
-    - 3.2.0-pre.12
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     compatible:
@@ -864,8 +808,6 @@ m_ResolvedPackages:
     - 3.2.0-pre.8
     - 3.2.0-pre.9
     - 3.2.0-pre.10
-    - 3.2.0-pre.11
-    - 3.2.0-pre.12
     - 4.0.0-pre.1
     - 4.0.0-pre.2
     recommended: 3.0.9
@@ -918,7 +860,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.6
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.timeline@1.7.6
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.timeline@1.7.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1012,7 +954,6 @@ m_ResolvedPackages:
     - 1.7.4
     - 1.7.5
     - 1.7.6
-    - 1.7.7
     - 1.8.0
     - 1.8.1
     - 1.8.2
@@ -1021,10 +962,8 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     - 1.8.7
-    - 1.8.8
     compatible:
     - 1.7.6
-    - 1.7.7
     - 1.8.0
     - 1.8.1
     - 1.8.2
@@ -1033,8 +972,7 @@ m_ResolvedPackages:
     - 1.8.5
     - 1.8.6
     - 1.8.7
-    - 1.8.8
-    recommended: 1.7.7
+    recommended: 1.7.6
     deprecated: []
   dependencies:
   - name: com.unity.modules.audio
@@ -1092,7 +1030,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -1165,7 +1103,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.9.4
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.visualscripting@1.9.4
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.visualscripting@1.9.4
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -1213,12 +1151,10 @@ m_ResolvedPackages:
     - 1.9.2
     - 1.9.4
     - 1.9.5
-    - 1.9.6
     compatible:
     - 1.9.4
     - 1.9.5
-    - 1.9.6
-    recommended: 1.9.6
+    recommended: 1.9.5
     deprecated:
     - 1.8.0-pre.1
   dependencies:
@@ -1268,7 +1204,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -1324,7 +1260,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -1379,7 +1315,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -1435,7 +1371,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1491,7 +1427,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1547,7 +1483,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1607,7 +1543,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1671,7 +1607,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1728,7 +1664,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1784,7 +1720,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1840,7 +1776,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1896,7 +1832,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1952,7 +1888,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2008,7 +1944,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -2068,7 +2004,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -2124,7 +2060,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -2188,7 +2124,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -2247,7 +2183,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -2303,7 +2239,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -2371,7 +2307,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -2427,7 +2363,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -2491,7 +2427,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2547,7 +2483,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2611,7 +2547,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2675,7 +2611,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2739,7 +2675,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2819,7 +2755,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2879,7 +2815,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2947,7 +2883,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -3017,7 +2953,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -3073,7 +3009,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -3141,7 +3077,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -3201,7 +3137,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.settings-manager@2.0.1
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.settings-manager@2.0.1
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -3264,7 +3200,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.22
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.ide.visualstudio@2.0.22
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -3354,7 +3290,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.31
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.ide.rider@3.0.31
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.ide.rider@3.0.31
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -3415,12 +3351,10 @@ m_ResolvedPackages:
     - 3.0.28
     - 3.0.31
     - 3.0.34
-    - 3.0.35
     compatible:
     - 3.0.31
     - 3.0.34
-    - 3.0.35
-    recommended: 3.0.35
+    recommended: 3.0.34
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -3461,7 +3395,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.5
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -3530,7 +3464,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -3596,7 +3530,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.2
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -3629,11 +3563,9 @@ m_ResolvedPackages:
     - 1.1.0
     - 1.1.1
     - 1.2.2
-    - 1.2.3
     compatible:
     - 1.2.2
-    - 1.2.3
-    recommended: 1.2.3
+    recommended: 1.2.2
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -3670,7 +3602,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.33
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.test-framework@1.1.33
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -3734,7 +3666,6 @@ m_ResolvedPackages:
     - 1.4.3
     - 1.4.4
     - 1.4.5
-    - 1.4.6
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -3756,7 +3687,6 @@ m_ResolvedPackages:
     - 1.4.3
     - 1.4.4
     - 1.4.5
-    - 1.4.6
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -3812,7 +3742,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.2.6
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.testtools.codecoverage@1.2.6
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.testtools.codecoverage@1.2.6
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3919,7 +3849,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.1
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.sequences@2.0.1
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.sequences@2.0.1
   assetPath: Packages/com.unity.sequences
   name: com.unity.sequences
   displayName: Sequences
@@ -3928,7 +3858,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: 'Efficiently create movies, game cinematics or any other linear content.
 
     Organize
@@ -3939,53 +3869,21 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 1.0.0-pre.5
-    - 1.0.0-pre.6
-    - 1.0.0
-    - 1.0.2
-    - 1.0.3
-    - 1.0.4
-    - 1.1.0-pre.1
-    - 1.1.0-pre.2
-    - 1.1.0
-    - 2.0.0-pre.1
-    - 2.0.0-pre.2
-    - 2.0.0
     - 2.0.1
-    - 2.0.2
-    - 2.1.0-pre.1
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 2.1.3
     compatible:
     - 2.0.1
-    - 2.0.2
-    - 2.1.0-pre.1
-    - 2.1.0
-    - 2.1.1
-    - 2.1.2
-    - 2.1.3
-    recommended: 2.0.2
+    recommended: 2.0.1
     deprecated: []
   dependencies:
-  - name: com.unity.ugui
-    version: 1.0.0
-  - name: com.unity.recorder
-    version: 2.5.5
   - name: com.unity.timeline
     version: 1.6.3
+  - name: com.unity.recorder
+    version: 2.5.5
   - name: com.unity.settings-manager
     version: 1.0.3
-  resolvedDependencies:
   - name: com.unity.ugui
     version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.recorder
-    version: 4.0.3
+  resolvedDependencies:
   - name: com.unity.timeline
     version: 1.7.6
   - name: com.unity.modules.audio
@@ -3996,8 +3894,16 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
+  - name: com.unity.recorder
+    version: 4.0.3
   - name: com.unity.settings-manager
     version: 2.0.1
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
   keywords: []
   registry:
     id: main
@@ -4009,7 +3915,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638004097040000000
+  datePublishedTicks: 0
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -4031,7 +3937,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.2.1
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.formats.fbx@4.2.1
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.formats.fbx@4.2.1
   assetPath: Packages/com.unity.formats.fbx
   name: com.unity.formats.fbx
   displayName: FBX Exporter
@@ -4040,7 +3946,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: "The Unity FBX Exporter package makes it easy to send geometry and
     animation to any application that supports the FBX format and send them back
     to Unity with minimal effort.\n\nIn particular, this round-trip workflow enables
@@ -4052,55 +3958,17 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 2.0.1-preview.2
-    - 2.0.1-preview.3
-    - 2.0.1-preview.4
-    - 2.0.1-preview.5
-    - 2.0.1-preview.11
-    - 2.0.2-preview.1
-    - 2.0.3-preview.3
-    - 3.0.0-preview.2
-    - 3.0.1-preview.2
-    - 3.1.0-preview.1
-    - 3.2.0-preview.2
-    - 3.2.1-preview.2
-    - 4.0.0-pre.1
-    - 4.0.0-pre.4
-    - 4.0.1
-    - 4.1.0-pre.2
-    - 4.1.0
-    - 4.1.1
-    - 4.1.2
-    - 4.1.3
-    - 4.2.0-pre.1
-    - 4.2.0
     - 4.2.1
-    - 5.0.0-pre.1
-    - 5.0.0
-    - 5.1.0-pre.1
-    - 5.1.0
-    - 5.1.1
-    - 5.1.2
-    - 5.1.3
     compatible:
     - 4.2.1
-    - 5.0.0-pre.1
-    - 5.0.0
-    - 5.1.0-pre.1
-    - 5.1.0
-    - 5.1.1
-    - 5.1.2
-    - 5.1.3
     recommended: 4.2.1
     deprecated: []
   dependencies:
-  - name: com.autodesk.fbx
-    version: 4.2.1
   - name: com.unity.timeline
     version: 1.7.1
-  resolvedDependencies:
   - name: com.autodesk.fbx
     version: 4.2.1
+  resolvedDependencies:
   - name: com.unity.timeline
     version: 1.7.6
   - name: com.unity.modules.audio
@@ -4111,6 +3979,8 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
+  - name: com.autodesk.fbx
+    version: 4.2.1
   keywords:
   - fbx
   - animation
@@ -4127,7 +3997,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638089453510000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.formats.fbx@4.2/manual/index.html
   hasRepository: 1
   repository:
@@ -4149,7 +4019,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.3.2
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.formats.alembic@2.3.2
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.formats.alembic@2.3.2
   assetPath: Packages/com.unity.formats.alembic
   name: com.unity.formats.alembic
   displayName: Alembic
@@ -4158,7 +4028,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: 'Import and export Alembic files (.abc), record and stream animations
     in the Alembic format directly in Unity.
 
@@ -4173,52 +4043,17 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 0.1.2-preview
-    - 1.0.0-preview.2
-    - 1.0.0-preview.7
-    - 1.0.0-preview.8
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 1.0.4
-    - 1.0.5
-    - 1.0.6
-    - 1.0.7
-    - 2.0.0-preview.1
-    - 2.0.1-preview.1
-    - 2.1.0-preview.3
-    - 2.1.1-pre.1
-    - 2.1.2
-    - 2.1.3
-    - 2.2.0-exp.1
-    - 2.2.0-exp.2
-    - 2.2.0-pre.3
-    - 2.2.0-pre.4
-    - 2.2.0
-    - 2.2.1
-    - 2.2.2
-    - 2.3.0-pre.1
-    - 2.3.0-pre.2
-    - 2.3.0-pre.3
-    - 2.3.0
     - 2.3.2
-    - 2.3.3
-    - 2.3.4
-    - 2.4.0
     compatible:
     - 2.3.2
-    - 2.3.3
-    - 2.3.4
-    - 2.4.0
-    recommended: 2.3.4
+    recommended: 2.3.2
     deprecated: []
   dependencies:
   - name: com.unity.timeline
     version: 1.0.0
-  - name: com.unity.modules.cloth
-    version: 1.0.0
   - name: com.unity.modules.unityanalytics
+    version: 1.0.0
+  - name: com.unity.modules.cloth
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.timeline
@@ -4231,15 +4066,15 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.particlesystem
     version: 1.0.0
-  - name: com.unity.modules.cloth
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
   - name: com.unity.modules.unityanalytics
     version: 1.0.0
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.cloth
+    version: 1.0.0
+  - name: com.unity.modules.physics
     version: 1.0.0
   keywords:
   - alembic
@@ -4258,7 +4093,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638193058490000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.formats.alembic@2.3/manual/index.html
   hasRepository: 1
   repository:
@@ -4280,7 +4115,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.0.3
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.recorder@4.0.3
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.recorder@4.0.3
   assetPath: Packages/com.unity.recorder
   name: com.unity.recorder
   displayName: Recorder
@@ -4289,7 +4124,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: assets
+  type: 
   description: 'The Recorder allows you to capture and save data from the Unity Editor
     during Play mode: animations, videos, images, audio, arbitrary output variables
     (AOVs), and more.'
@@ -4297,43 +4132,7 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
-    - 2.0.0-preview.6
-    - 2.0.1-preview.1
-    - 2.0.2-preview.3
-    - 2.0.3-preview.1
-    - 2.1.0-preview.1
-    - 2.2.0-preview.4
-    - 2.3.0-preview.3
-    - 2.4.0-preview.1
-    - 2.5.0-pre.1
-    - 2.5.2
-    - 2.5.4
-    - 2.5.5
-    - 2.5.7
-    - 2.6.0-exp.3
-    - 2.6.0-exp.4
-    - 3.0.0-pre.1
-    - 3.0.0-pre.2
-    - 3.0.0
-    - 3.0.1
-    - 3.0.2
-    - 3.0.3
-    - 3.0.4
-    - 4.0.0-pre.1
-    - 4.0.0-pre.2
-    - 4.0.0-pre.3
-    - 4.0.0-pre.4
-    - 4.0.0-pre.5
-    - 4.0.0
-    - 4.0.1
-    - 4.0.2
     - 4.0.3
-    - 5.0.0-pre.1
-    - 5.0.0
-    - 5.1.0-pre.1
-    - 5.1.0
-    - 5.1.1
-    - 5.1.2
     compatible:
     - 4.0.3
     recommended: 4.0.3
@@ -4375,7 +4174,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638531089740000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.recorder@4.0/manual/index.html
   hasRepository: 1
   repository:
@@ -4397,7 +4196,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4469,7 +4268,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 4.2.1
   source: 1
-  resolvedPath: C:\Users\89728\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.autodesk.fbx@4.2.1
+  resolvedPath: C:\Users\89689\Documents\GitHub\Ghost-Kill\Library\PackageCache\com.autodesk.fbx@4.2.1
   assetPath: Packages/com.autodesk.fbx
   name: com.autodesk.fbx
   displayName: Autodesk FBX SDK for Unity
@@ -4478,45 +4277,16 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: asset
+  type: 
   description: "This package provides Unity C# bindings to the Autodesk\xAE FBX\xAE
     SDK."
   status: 0
   errors: []
   versions:
     all:
-    - 2.0.0-preview
-    - 2.0.0-preview.4
-    - 2.0.0-preview.5
-    - 2.0.0-preview.6
-    - 2.0.0-preview.7
-    - 2.0.1-preview.1
-    - 3.0.0-preview.1
-    - 3.0.1-preview.1
-    - 3.1.0-preview.1
-    - 3.1.0-preview.2
-    - 4.0.0-pre.1
-    - 4.0.0-pre.2
-    - 4.0.1
-    - 4.1.0-pre.1
-    - 4.1.0
-    - 4.1.1
-    - 4.1.2
-    - 4.2.0-pre.1
-    - 4.2.0
     - 4.2.1
-    - 5.0.0-pre.1
-    - 5.0.0
-    - 5.1.0-pre.1
-    - 5.1.0
-    - 5.1.1
     compatible:
     - 4.2.1
-    - 5.0.0-pre.1
-    - 5.0.0
-    - 5.1.0-pre.1
-    - 5.1.0
-    - 5.1.1
     recommended: 4.2.1
     deprecated: []
   dependencies: []
@@ -4537,7 +4307,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638089453470000000
+  datePublishedTicks: 0
   documentationUrl: https://docs.unity3d.com/Packages/com.autodesk.fbx@4.2/manual/index.html
   hasRepository: 1
   repository:
