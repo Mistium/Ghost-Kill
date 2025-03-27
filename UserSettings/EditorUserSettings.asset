@@ -12,6 +12,7 @@ EditorUserSettings:
       value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
       flags: 0
     RecentlyUsedSceneGuid-2:
+<<<<<<< HEAD
       value: 5202050503005a595f5d092014730a44441519782f7127692c2d4e6ab6b7306c
       flags: 0
     UnityEditor.ShaderGraph.Blackboard:
@@ -22,6 +23,9 @@ EditorUserSettings:
       flags: 0
     UnityEditor.ShaderGraph.InspectorWindow:
       value: 18135939215a0a5004000b0e15254b524c1119263f2d6a722016393ce1eb3d36e5d339f9a5602b2e2c07a37e0901373ae01e0008f707250d171df81a53a5485d41895ac825e0100ec20313c0d91cddccd3d0c7efcca9bd80908fecb0f9cfddf1eff4e7a1b1eae482f0fcaee1e1928b86d888ed969b938797a7cf
+=======
+      value: 5606025454000f030b0a0a7015220d44404f49297d2a7e347a704d31bbb2326a
+>>>>>>> faf454a5 (GOOFY)
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650
