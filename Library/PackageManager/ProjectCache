@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638786730107180318
-    m_Hash: 769010014
+      ticks: 638790211319457693
+    m_Hash: 3133937470
   m_LockFileStatus:
     m_FilePath: C:/Users/90565/Documents/GitHub/Ghost-Kill/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638786730107241358
-    m_Hash: 4195602321
+      ticks: 638790211319467683
+    m_Hash: 163184960
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -3647,17 +3647,34 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
   status: 0
   errors: []
   versions:
     all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
     - 4.9.2
+    - 4.9.3
     compatible:
     - 4.9.2
-    recommended: 4.9.2
+    - 4.9.3
+    recommended: 4.9.3
     deprecated: []
   dependencies: []
   resolvedDependencies: []
@@ -3674,7 +3691,7 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637831252240000000
   documentationUrl: 
   hasRepository: 1
   repository:

@@ -1049,8 +1049,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
@@ -1061,8 +1061,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Autodesk.Fbx">
@@ -1093,12 +1093,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.Recorder.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
-      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Searcher.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
