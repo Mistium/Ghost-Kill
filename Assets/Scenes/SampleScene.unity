@@ -125769,16 +125769,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 0.1
   accelerationSpeed: 20
-  cameraTransform: {fileID: 0}
-  cameraDistance: 5
+  cameraTransform: {fileID: 1937266220}
+  cameraDistance: 6
   cameraHeight: 2
-  cameraXOffset: 1.5
-  cameraCollisionOffset: 0.2
+  cameraXOffset: 0
+  cameraCollisionOffset: -3
   minCameraHeight: 0.5
   heightAdjustmentRate: 0.5
   collisionLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
 --- !u!4 &1929805059
 Transform:
   m_ObjectHideFlags: 0
