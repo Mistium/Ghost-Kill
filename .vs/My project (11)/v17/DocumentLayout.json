@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\89689\\My project (11)\\",
+  "WorkspaceRootPath": "C:\\Users\\89689\\Downloads\\My project (11)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\89689\\My project (11)\\Library\\PackageCache\\com.spoiledcat.git@1.0.44\\Editor\\EntryPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.spoiledcat.git@1.0.44\\Editor\\EntryPoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74B37655-761F-1942-9632-5351E34B0C78}|Assembly-CSharp.csproj|C:\\Users\\89689\\My project (11)\\assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74B37655-761F-1942-9632-5351E34B0C78}|Assembly-CSharp.csproj|solutionrelative:assets\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74B37655-761F-1942-9632-5351E34B0C78}|Assembly-CSharp.csproj|C:\\Users\\89689\\My project (11)\\assets\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74B37655-761F-1942-9632-5351E34B0C78}|Assembly-CSharp.csproj|solutionrelative:assets\\cameramovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74B37655-761F-1942-9632-5351E34B0C78}|Assembly-CSharp.csproj|c:\\users\\89689\\downloads\\my project (11)\\assets\\scripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74B37655-761F-1942-9632-5351E34B0C78}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +14,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CameraMovement.cs",
-              "DocumentMoniker": "C:\\Users\\89689\\My project (11)\\Assets\\CameraMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\CameraMovement.cs",
-              "ToolTip": "C:\\Users\\89689\\My project (11)\\Assets\\CameraMovement.cs",
-              "RelativeToolTip": "Assets\\CameraMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T13:48:16.315Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EntryPoint.cs",
-              "DocumentMoniker": "C:\\Users\\89689\\My project (11)\\Library\\PackageCache\\com.spoiledcat.git@1.0.44\\Editor\\EntryPoint.cs",
-              "RelativeDocumentMoniker": "Library\\PackageCache\\com.spoiledcat.git@1.0.44\\Editor\\EntryPoint.cs",
-              "ToolTip": "C:\\Users\\89689\\My project (11)\\Library\\PackageCache\\com.spoiledcat.git@1.0.44\\Editor\\EntryPoint.cs",
-              "RelativeToolTip": "Library\\PackageCache\\com.spoiledcat.git@1.0.44\\Editor\\EntryPoint.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAACqAAAA",
+              "Title": "Playercombat.cs",
+              "DocumentMoniker": "C:\\Users\\89689\\Downloads\\My project (11)\\Assets\\Scripts\\Playercombat.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Playercombat.cs",
+              "ToolTip": "C:\\Users\\89689\\Downloads\\My project (11)\\Assets\\Scripts\\Playercombat.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Playercombat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T13:55:51.903Z",
+              "WhenOpened": "2025-03-31T12:11:48.428Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\89689\\My project (11)\\Assets\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\89689\\My project (11)\\Assets\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\PlayerMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-30T10:51:17.295Z"
             }
           ]
         }
