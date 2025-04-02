@@ -1,9 +1,5 @@
 sceneSetups:
-<<<<<<< HEAD
-- path: Assets/Scenes/PlayerHouse.unity
-=======
-- path: Assets/Scenes/BattleScene.unity
->>>>>>> faf454a5 (GOOFY)
+- path: Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
