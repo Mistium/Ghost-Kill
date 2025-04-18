@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Trigger : MonoBehaviour
 {
-    public player_transform playerTransform;
+    public Transform playerTransform;
+    public string tagToDetect = "Player"; // Adding the missing tag variable with default value
     
     // Start is called before the first frame update
     void Start()
