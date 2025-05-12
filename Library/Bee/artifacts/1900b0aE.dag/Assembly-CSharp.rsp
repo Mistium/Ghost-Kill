@@ -370,6 +370,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Dialogue.cs"
+"Assets/NPCtalk.cs"
 "Assets/Player/PlayerAnimationHandler.cs"
 "Assets/Player/PlayerMovement.cs"
 "Assets/Scenes/MainMenu/MenuHandler.cs"
