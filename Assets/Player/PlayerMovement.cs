@@ -43,7 +43,7 @@ public class PlayerMovement : MonoBehaviour
             //get input direction, assign to movement vector
             moveDirection = new Vector3(Input.GetAxisRaw("Horizontal"), 0, Input.GetAxisRaw("Vertical"));
             //for acceleration/decceleration, lerp between moveDirection and the moveDirection from last frame. also multiply by move speed for fun.
-            moveDirection = Vector3.Lerp(lastMove, moveDirection, accelerationSpeed).normalized * moveSpeed;
+            moveDirection = Vector3.Lerp(lastMove, moveDirection, accelerationSpeed).normalized * moveSpeed * Time.deltaTime * 100;
             CC.Move(moveDirection);
             //for acceleration/deceleration
             lastMove = moveDirection;
