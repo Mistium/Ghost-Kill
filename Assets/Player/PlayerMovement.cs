@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -37,6 +38,8 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+
+
         //so player control can be disabled for cutscenes and transitions.
         if (canMove)
         {
