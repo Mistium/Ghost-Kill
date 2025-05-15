@@ -9,7 +9,7 @@ public class GhostGun : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player.layer = LayerMask.NameToLayer("Ignore Raycast");
+        
     }
 
     // Update is called once per frame
@@ -22,13 +22,15 @@ public class GhostGun : MonoBehaviour
         if (Physics.Raycast(ray, out hit))
         {
             Vector3 target = hit.point;
-            Debug.Log("Mouse Position in World Space: " + target);
 
             transform.position = new Vector3(transform.parent.position.x, transform.position.y, transform.parent.position.z);
             Vector3 direction = (target - transform.position).normalized;
-            Debug.Log("Direction " + direction);
 
             transform.position = new Vector3(transform.parent.position.x + 0.75f * direction.x, transform.position.y, transform.parent.position.z + 0.1f * direction.z);
+
+            transform.LookAt(new Vector3(target.x, target.y, target.z));
+            transform.Rotate(new Vector3(0, 90, 0));
+            transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, 0);
         }
     }
 }
