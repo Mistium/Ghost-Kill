@@ -67,11 +67,12 @@
     <Compile Include="Assets\Scripts\Trigger.cs" />
     <Compile Include="Assets\Scripts\BattleSystem.cs" />
     <Compile Include="Assets\Scripts\SceneSwitcher.cs" />
-    <Compile Include="Assets\Buyable Food.cs" />
     <Compile Include="Assets\Scripts\AttackButton.cs" />
     <Compile Include="Assets\Scenes\MainMenu\MenuHandler.cs" />
+    <Compile Include="Assets\ShopUI.cs" />
     <Compile Include="Assets\Scripts\SceneTeleporter.cs" />
     <Compile Include="Assets\Scripts\BGMManager.cs" />
+    <Compile Include="Assets\PlayerStats.cs" />
     <Compile Include="Assets\Player\PlayerAnimationHandler.cs" />
     <Compile Include="Assets\NPCtalk.cs" />
     <Compile Include="Assets\Scenes\UI\UI Handler.cs" />

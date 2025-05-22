@@ -3001,7 +3001,7 @@ SpriteRenderer:
   m_Size: {x: 0.16, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!43 &780177963
@@ -3675,6 +3675,8 @@ MonoBehaviour:
   FoodBuy: {fileID: 1926198865}
   ShopText: {fileID: 1714825648}
   MoneyText: {fileID: 156719102}
+  YesButton: {fileID: 192828711}
+  NoButton: {fileID: 1602972850}
   playerNearby: 0
   foodCost: 0
 --- !u!43 &1054503317
@@ -4207,6 +4209,7 @@ GameObject:
   - component: {fileID: 1224871644}
   - component: {fileID: 1224871643}
   - component: {fileID: 1224871642}
+  - component: {fileID: 1224871646}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4305,6 +4308,20 @@ Transform:
   - {fileID: 479488417}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1224871646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224871641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2197db9072f81bc4b9132500ba35f425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Money: 10
+  FoodAmount: 0
 --- !u!43 &1245867518
 Mesh:
   m_ObjectHideFlags: 0

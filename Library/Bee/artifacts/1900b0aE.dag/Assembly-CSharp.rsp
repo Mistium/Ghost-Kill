@@ -369,11 +369,11 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/Buyable Food.cs"
 "Assets/Dialogue.cs"
 "Assets/NPCtalk.cs"
 "Assets/Player/PlayerAnimationHandler.cs"
 "Assets/Player/PlayerMovement.cs"
+"Assets/PlayerStats.cs"
 "Assets/Scenes/MainMenu/MenuHandler.cs"
 "Assets/Scenes/MainMenu/NewGame Button.cs"
 "Assets/Scenes/UI/UI Handler.cs"
@@ -385,6 +385,7 @@
 "Assets/Scripts/StartSceneGeneric.cs"
 "Assets/Scripts/Teleporter.cs"
 "Assets/Scripts/Trigger.cs"
+"Assets/ShopUI.cs"
 -langversion:9.0
 /deterministic
 /optimize+
